@@ -116,13 +116,14 @@ header {
  }
  .cont-c {
  	margin: 5px 10px;
- 	width: 200px;
- 	height: 200px;
+ 	width: 250px;
+ 	height: 250px;
  	border-radius: 50%;
  	border: 3px solid white;
  	/*background: green;*/
  	display: inline-block;
  	cursor: pointer;
+ 	vertical-align: top;
  }
  .cont-c .img-l {
  	width: 50px;
