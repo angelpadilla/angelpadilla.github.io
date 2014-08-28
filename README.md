@@ -1,6 +1,5 @@
 # Angel Padilla Resume
 
-The easiest way to get started with Foundation + Compass.
 
 ## Datos de contacto
 
