@@ -52,7 +52,7 @@ a {
 .img h1 {
 	margin-top: 20px;
 	font-weight: 300;
-	font-family: 'Ubuntu-L';
+	/*font-family: 'Ubuntu-L';*/
 }
 .image img {
 	border-radius: 50%;
@@ -98,7 +98,7 @@ header {
  }
  #footer article h3{
 	font-size: 13px;
-	font-family: 'Ubuntu-L';
+	/*font-family: 'Ubuntu-L';*/
 }
  .cont-d {
  	padding-top: 100px;
@@ -106,7 +106,7 @@ header {
  }
  .cont-d h1{
  	/*color: #333;*/
- 	font-family: 'Ubuntu-M';
+ 	/*font-family: 'Ubuntu-M';*/
  	font-size: 25px;
  }
  .container {
@@ -125,21 +125,31 @@ header {
  	cursor: pointer;
  	vertical-align: top;
  }
- .cont-c .img-l {
- 	width: 50px;
- 	/*height: 100%;*/
- 	position: relative;
- 	top: 40px;
+  .cont-c2 {
+ 	margin: 5px 10px;
+ 	width: 200px;
+ 	height: 200px;
+ 	border-radius: 50%;
+ 	border: 3px solid white;
+ 	/*background: green;*/
+ 	display: inline-block;
+ 	cursor: pointer;
+ 	vertical-align: top;
  }
- .cont-c .img-s {
+ .cont-c .img-l {
+ 	position: relative;
+ 	width: 100px;
+ 	top: 50px;
+ }
+ .cont-c2 .img-s {
  	position: relative;
 	top: 50px;
 	left: 0;
  }
- .cont-c p {
+ .cont-c p, .cont-c2 p {
  	font-size: 12px;
  	position: relative;
- 	top: 55px;
+ 	top: 65px;
  }
 
  .nav-t {
