@@ -23,13 +23,19 @@ $(function(){
 	$('#portfolio').waypoint(function(direction){
 		if(direction == 'down') {
 			$('header').css({
-				'background':'#1D6770',
+				'background':'#fff',
+			});
+			$('.nav-t h1').css({
+				'color': '#333',
 			});
 		}
 		else if(direction == 'up') {
 			
 			$('header').css({
 				'background':'#223659',
+			});
+			$('.nav-t h1').css({
+				'color': '#fff',
 			});
 		}
 	});
@@ -38,11 +44,17 @@ $(function(){
 			$('header').css({
 				'background':'#F8823C',
 			});
+			$('.nav-t h1').css({
+				'color': '#fff',
+			});
 		}
 		else if(direction == 'up') {
 			
 			$('header').css({
-				'background':'#1D6770',
+				'background':'#fff',
+			});
+			$('.nav-t h1').css({
+				'color': '#333',
 			});
 		}
 	});

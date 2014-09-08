@@ -84,7 +84,7 @@ header {
  	
  }
  #portfolio {
- 	background: #1D6770;
+ 	background: white;
  	text-align: center;
  }
  #contact {
@@ -179,8 +179,8 @@ header {
  	z-index: 99;
  }
  .portfolio-d {
- 	width: 500px;
- 	height: 310px;
+ 	width: 300px;
+ 	height: 210px;
  	display: inline-block;
  	background: blue;
  	opacity: 0.4;
